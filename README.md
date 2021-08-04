@@ -1,2 +1,2 @@
 # RPG_MVC
-Convert a display program to Model, View, Controller
+Convert a display program to Model, View, Controller.  When trying to generate data and display it on a screen it can take forever.  I developed this process to help people convert from a program first generating the data that needs to be displayed and then display it, to use an MVC approach.  First, by taking the data out of the display file and creating a MODEL. Second, moving the data manipulating code to a program/CONTROLLER that constantly updates the MODEL.  Third, recoding the display portion of the program to simply display the MODEL data as a VIEW.  By placing the data generation/maintenance in a batch program the CONTROLLER is constantly refreshing the MODEL used in the VIEW. 
